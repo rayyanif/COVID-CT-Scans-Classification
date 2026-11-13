@@ -1,0 +1,9 @@
+/ct_scans_dataset/
+*.ipynb
+.ipynb_checkpoints/
+.venv*/
+__pycache__/
+*.pyc
+.env
+.tf_setup/
+.verify*

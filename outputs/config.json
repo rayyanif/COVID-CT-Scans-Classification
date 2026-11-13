@@ -1,0 +1,31 @@
+{
+  "model": "EfficientNetV2B0",
+  "seed": 123,
+  "class_names": [
+    "non_covid",
+    "covid"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "batch_size": 16,
+  "warm_epochs": 2,
+  "fine_epochs": 23,
+  "warm_lr": 0.001,
+  "learning_rate": 6e-05,
+  "weight_decay": 1e-05,
+  "dropout": 0.4,
+  "rotation": 0.03,
+  "horizontal_flip": true,
+  "patience": 5,
+  "threshold": 0.5,
+  "valid_size": 0.15,
+  "test_size": 0.15,
+  "split": "split.csv",
+  "class_weight": {
+    "0": 4.468229954614221,
+    "1": 0.5630003812428517
+  },
+  "validation_macro_f1": 0.9960340333817854
+}
